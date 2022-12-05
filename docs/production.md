@@ -447,6 +447,7 @@ Personally I prefer the latter as it makes a neat self contained unit, but this 
 I strongly recommend that you use a code repo system or similar to manage your non pysystemtrade code and configuration. Since code and configuration will mostly be in text (or text like) yaml files a code repo system like git will work just fine. I do not recommend storing configuration in database files that will need to be backed up separately, because this makes it more complex to store old configuration data that can be archived and retrieved if required.
 
 ### Managing your private directory
+OK
 
 Since the private directory is excluded from the git system (since you don't want it appearing on github!), you need to ensure it is managed separately. I have a separate repo for my private stuff, for which I have a local clone in directory ~/private. Incidentally, github are now offering free private repos, so that is another option.
 I then use a bash script which I run in lieu of a normal git add/ commit / push cycle, to commit both private and public code:
@@ -591,6 +592,9 @@ mongodump -o ~/dump/
 cp -rf ~/dump/* $MONGO_BACKUP_PATH
 ```
 
+Arto 20221202: Ok ./backup_mongo_data_as_dump
+`/data/mongo_dump`
+
 This is done by the scheduled backup process (see [scheduling](#scheduling)), and also by [this script](#backup-files)
 
 Then to restore, from a linux command line:
@@ -630,6 +634,7 @@ Linux script:
 . $SCRIPT_PATH/backup_arctic_to_csv
 ```
 
+OK: `/data/backups_csv`
 
 ## Echos, Logging, diagnostics and reporting
 
@@ -1530,9 +1535,11 @@ Linux script:
 ```
 . $SCRIPT_PATH/update_multiple_adjusted_prices
 ```
+Arto 20221202: OK
+
 
 Called by: `run_daily_price_updates`
-
+Arto  ...will run every 60 minutes at most 1 times with heartbeats every 10 minutes
 
 Spike checks are not carried out on multiple and adjusted prices, since they should hopefully be clean if the underlying per contract prices are clean.
 
@@ -1558,6 +1565,8 @@ Called by: `run_capital_update`
 
 If the brokers account value changes by more than 10% then capital will not be adjusted, and you will be sent an email. You will then need to run `modify_account_values`. This will repeat the poll of the brokerage account, and ask you to confirm if a large change is real. The next time `update_total_capital` is run there will be no error, and all adjustments will go ahead as normal.
 
+Arto 20221202: ran this using `./interactive_update_capital_manual`
+OK
 
 ### Allocate capital to strategies
 
