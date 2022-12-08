@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"},{"v":{"$numberInt":"2"},"key":{"symbol":{"$numberInt":"1"}},"name":"symbol_1","background":true,"unique":true}],"uuid":"46d964457ac547a58fd53f5b1872d7f3","collectionName":"futures_adjusted_prices.version_nums","type":"collection"}

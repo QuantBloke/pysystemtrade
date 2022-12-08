@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"},{"v":{"$numberInt":"2"},"key":{"process_name":{"$numberInt":"1"}},"name":"process_name_1","unique":true}],"uuid":"c7521ad547e14962ae895e8cd84a10dd","collectionName":"process_control","type":"collection"}

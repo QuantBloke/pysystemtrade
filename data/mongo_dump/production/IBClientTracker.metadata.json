@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"},{"v":{"$numberInt":"2"},"key":{"client_id":{"$numberInt":"1"}},"name":"client_id_1","unique":true}],"uuid":"12ccdad4e57e413d9cb4228dbda92dc4","collectionName":"IBClientTracker","type":"collection"}

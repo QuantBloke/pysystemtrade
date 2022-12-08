@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"},{"v":{"$numberInt":"2"},"key":{"order_id":{"$numberInt":"1"}},"name":"order_id_1","unique":true}],"uuid":"ada51f55b6f54f2e92a43ec51d0553a3","collectionName":"INSTRUMENT_ORDER_STACK","type":"collection"}

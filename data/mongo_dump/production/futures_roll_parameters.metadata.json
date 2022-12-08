@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"},{"v":{"$numberInt":"2"},"key":{"instrument_code":{"$numberInt":"1"}},"name":"instrument_code_1","unique":true}],"uuid":"0b1f392ca4474f58af3cb2bc5fa1c3d0","collectionName":"futures_roll_parameters","type":"collection"}

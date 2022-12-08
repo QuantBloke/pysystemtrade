@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"},{"v":{"$numberInt":"2"},"key":{"symbol":{"$numberInt":"1"}},"name":"symbol_1","background":true,"unique":true}],"uuid":"c0a152b10d4948e49ee1b03b9d38cb66","collectionName":"spreads.version_nums","type":"collection"}

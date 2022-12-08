@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"},{"v":{"$numberInt":"2"},"key":{"instrument_code":{"$numberInt":"1"}},"name":"instrument_code_1","unique":true}],"uuid":"ed7e9c627fa34815ac18d3e458561d1a","collectionName":"temporary_close_collection","type":"collection"}

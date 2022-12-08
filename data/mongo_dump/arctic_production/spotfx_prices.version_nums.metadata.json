@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"},{"v":{"$numberInt":"2"},"key":{"symbol":{"$numberInt":"1"}},"name":"symbol_1","background":true,"unique":true}],"uuid":"71fc38ccd21c4acc98b06a1d34beec5b","collectionName":"spotfx_prices.version_nums","type":"collection"}
